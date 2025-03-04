@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors()); // Enable CORS
 
+app.get('/', (req, res) => {
+    res.send('Sne@ky Pr0xy is running!');
+});
+
 app.get('/proxy', async (req, res) => {
     const { url } = req.query;
     if (!url) {
