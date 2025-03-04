@@ -1,0 +1,14 @@
+{
+  "name": "sneaky-proxy",
+  "version": "1.0.0",
+  "description": "A lightweight proxy server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5"
+  }
+}
